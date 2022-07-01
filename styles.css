@@ -1,0 +1,176 @@
+
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+hr{
+  border: dotted #EAF6F6 8px;
+  border-bottom: none;
+  margin: 50px auto;
+  width: 4%;
+  /*border-color: #EAF6F6;*/
+}
+/**************Texts*********/
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+h2{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  margin: 0;
+  color: #40514E;
+}
+  img{
+    margin: 0;
+
+  }
+
+/*************** Images ******************/
+
+.pro{
+  text-decoration: underline;
+}
+
+.cloud{
+  margin: 0;
+  position: absolute;
+  bottom: 350px;
+  left: 300px;
+}
+
+.cloud2{
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.mountain{
+  padding-top: 100px;
+}
+
+.image1{
+  height: 175px;
+  width: 175px;
+  margin: 20px;
+}
+
+.first-image{
+  width: 25%;
+  float: left;
+  padding-right: 20px;
+}
+.second-image{
+  width: 25%;
+  float: right;
+  padding-left: 20px;
+}
+
+
+
+
+/**************** Divs  ******************/
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.profile{
+  line-height: 2;
+  width: 30%;
+  margin: auto;
+}
+
+.skills{
+  line-height: 2;
+  margin: 50px;
+}
+
+.skill-row h3{
+    text-align: left;
+}
+
+.skill-row p{
+    text-align: left;
+}
+
+.topcontainer{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.contact-me{
+  line-height: 3;
+  width: 50%;
+  margin: auto;
+}
+
+.bottom-container{
+margin-top: 50px;
+background-color: #66BFBF;
+height: 150px;
+padding-top: 25px;
+}
+/*********** LINKS *********/
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #85f2e5);
+  background-image: -moz-linear-gradient(top, #66BFBF, #85f2e5);
+  background-image: -ms-linear-gradient(top, #66BFBF, #85f2e5);
+  background-image: -o-linear-gradient(top, #66BFBF, #85f2e5);
+  background-image: linear-gradient(to bottom, #66BFBF, #85f2e5);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0 20px;
+  margin: 50px auto;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #3ad6b2;
+  background-image: -webkit-linear-gradient(top, #3ad6b2, #4bc2b6);
+  background-image: -moz-linear-gradient(top, #3ad6b2, #4bc2b6);
+  background-image: -ms-linear-gradient(top, #3ad6b2, #4bc2b6);
+  background-image: -o-linear-gradient(top, #3ad6b2, #4bc2b6);
+  background-image: linear-gradient(to bottom, #3ad6b2, #4bc2b6);
+  text-decoration: none;
+}
+
+.footer-link{
+  display: inline-block;
+  text-decoration: none;
+  margin: 30px 20px;
+
+}
